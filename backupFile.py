@@ -49,6 +49,6 @@ def deleteFiles():
         elif(check == True):
             sh.rmtree()
             print("Folder have been Removed")
-        else:
+     else:
             print("There are no files or folder that is that much old")
 deleteFiles()
